@@ -2,7 +2,7 @@
 class CodingTest
   def generate_mod_array mod, array, code
     mod = array.map{ |x| x%mod }
-    mod.join(',').gsub(',0',','+code).gsub(/[i0123456789]/,' ').split(',')
+    mod.join(',').gsub(',0',','+code).gsub(/[0123456789]/,' ').split(',')
   end
 
   def remove_multiples array, m1, m2
