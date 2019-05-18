@@ -3,6 +3,8 @@ Solution to coding test
 
 In order to run in terminal, type:
 
-`$ ruby foo_bar.rb 100 5 7 `
+`$ ruby run_foo_bar.rb 100 5 Foo 7 Bar `
 
+To run unit test in terminal type:
 
+`$ ruby test_foo_bar.rb `
